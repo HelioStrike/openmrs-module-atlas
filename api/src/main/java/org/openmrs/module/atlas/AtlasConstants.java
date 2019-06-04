@@ -41,9 +41,9 @@ public class AtlasConstants {
 	
 	public final static String POST_ATLAS_DATA_TASK_DESCRIPTION = "Send Atlas information to OpenMRS on a weekly basis.";
 	
-	public final static String SERVER_PING_URL = "https://atlas.openmrs.org/module/ping.php";
+	public final static String SERVER_PING_URL = "http://localhost:3000/module";
     
-    public final static String SERVER_URL = "https://atlas.openmrs.org/module";
+    public final static String SERVER_URL = "http://localhost:3000";
 
 	public static final String PRIV_MANAGE_ATLAS_DATA = "Manage Atlas Data";
 }
